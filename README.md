@@ -39,4 +39,15 @@ Following command will make the bash script unreplacable.
 
 ![image](https://user-images.githubusercontent.com/66274690/184526511-0c7a63d5-52e5-44e5-a6b8-eded872f1524.png)
 
+    #!/bin/bash
+    echo "Memory:"
+    free -h
+    echo "Disk Usage:"
+    df -h
+    echo "Uptime:"
+    uptime
+    exit
+
+![image](https://user-images.githubusercontent.com/66274690/184526947-df6863ec-f976-4d1e-9e15-5fe4a092f076.png)
+
 ---
